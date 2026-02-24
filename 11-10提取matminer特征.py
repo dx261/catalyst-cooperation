@@ -15,7 +15,7 @@ if __name__ == '__main__':
     # part = "part10"
     # df = pd.read_excel(f"双元素步长2%样本{part}.xlsx")
 
-    df = pd.read_excel("2-24外推元素高通量样本4旧+1新.xlsx")
+    # df = pd.read_excel("2-24外推元素高通量样本4旧+1新.xlsx")
     for i, file in enumerate(os.listdir("2-24data")):
         print(file)
         df = pd.read_excel(f"2-24data/{file}")
